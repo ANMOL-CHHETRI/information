@@ -320,7 +320,6 @@ img {
 }
 
 .contact-info {
-padding-left: 10rem;
 display: flex;
 flex-direction: row;
 gap: 2vh;
@@ -331,10 +330,11 @@ box-sizing: border-box;
   border-radius: 20%;
 }
 .contact-box{
+  width: 350px;
   box-sizing: border-box;
+  align-items: center;
   background-color: var(--secondary-color);
   display: flex;
-  justify-content: center;
   gap: 3vh;
   flex-direction: column;
 }
@@ -444,6 +444,13 @@ box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .contact-info{
+    padding: 0px;
+  }
+  .contact-box{
+    width: 400px;
+    padding-bottom: 1rem;
   }
 
 
