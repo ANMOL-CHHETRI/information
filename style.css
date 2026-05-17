@@ -320,13 +320,23 @@ img {
 }
 
 .contact-info {
+padding-left: 10rem;
+display: flex;
+flex-direction: row;
+gap: 2vh;
+justify-content: center;
+box-sizing: border-box;
+}
+.map{
+  border-radius: 20%;
+}
+.contact-box{
+  box-sizing: border-box;
   background-color: var(--secondary-color);
-  padding: 2rem;
-  border-radius: 0.5rem;
   display: flex;
   justify-content: center;
-  gap: 2vh;
- 
+  gap: 3vh;
+  flex-direction: column;
 }
 .contact-info a{
   font-size: 2rem;
